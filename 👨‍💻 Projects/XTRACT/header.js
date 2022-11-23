@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const current = window.scrollY;
     
         // Check if last scroll is higher/lower than current scroll
-        last > current ? header.classList.remove("hidden") : header.classList.add("hidden");
+        header ? last > current ? header.classList.remove("hidden") : header.classList.add("hidden") : null;
     
         // Assign current scroll to last scroll
         last = current;
