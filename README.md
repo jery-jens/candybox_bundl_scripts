@@ -1,1 +1,1 @@
-# candybox_bundl_scripts
+# Candybox Bundl scripts
