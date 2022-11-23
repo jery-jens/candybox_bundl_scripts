@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const header = document.querySelector(".js-header");
+    console.log(header);
 
     let last = 0;
     
@@ -11,5 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
     
         // Assign current scroll to last scroll
         last = current;
+        console.log(last);
     });
 });
