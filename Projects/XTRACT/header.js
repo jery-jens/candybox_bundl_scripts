@@ -10,13 +10,13 @@ document.addEventListener("DOMContentLoaded", () => {
             // Check if last scroll is higher/lower than current scroll
             if (last > current) {
                 if (current <= 100) {
-                    header.classList.add("hidden-header");
+                    header.classList.remove("hidden-header");
                 } else {
                     header.classList.remove("hidden-header");
                 };
             } else {
                 if (current <= 100) {
-                    header.classList.add("hidden-header");
+                    header.classList.remove("hidden-header");
                 } else {
                     header.classList.add("hidden-header");
                 };
