@@ -4,5 +4,5 @@ const swiper = new Swiper('.swiper', {
     centeredSlides: true,
     roundLengths: true,
     slidesPerView: "auto",
-    spaceBetween: 30,
+    spaceBetween: 10,
 });
